@@ -1,4 +1,4 @@
-import api from 'api'
+import { api } from 'api'
 import { AppThunk } from "../store";
 import { getUserPositionsRequest, getUserPositionsError, getUserPositionsSuccess } from './positionsActions'
 import { IUserPositionRequest } from "interfaces/user";

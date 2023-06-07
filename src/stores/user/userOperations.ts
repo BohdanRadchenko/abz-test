@@ -1,4 +1,4 @@
-import api from 'api'
+import { api } from 'api'
 import { AppThunk } from "../store";
 import { IUserTokenRequest } from "interfaces/user";
 import storage from "api/storage";

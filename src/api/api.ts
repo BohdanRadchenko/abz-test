@@ -29,3 +29,5 @@ export const users = {
     return axiosPrivate.post(EApiPath.USERS, data);
   }
 }
+
+export default { positions, token, users }

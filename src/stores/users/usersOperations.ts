@@ -1,4 +1,4 @@
-import api from 'api'
+import { api } from 'api'
 import { AppThunk } from "../store";
 import { getUserRequest, getUsersSuccess, getUsersError, setUsersPagination } from './usersActions'
 import { IUsersRequest } from "interfaces/user";
