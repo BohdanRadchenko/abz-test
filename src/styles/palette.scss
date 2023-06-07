@@ -1,0 +1,55 @@
+$colours: (
+        white: (
+                100: #fff,
+        ),
+        black: (
+                87: #000000DE,
+                100: #000,
+        ),
+        yellow: (
+                100: #F4E041,
+                200: #FFE302,
+        ),
+        blue: (
+                100: #00BDD3,
+        ),
+        red: (
+                100: #CB3D40,
+        ),
+        gray: (
+                50: #F8F8F8,
+                100: #B4B4B4,
+                150: #D0CFCF,
+                200: #7E7E7E,
+        ),
+);
+
+$palettes: (
+        color-text: var(--palette-black-87),
+        primary: var(--palette-yellow-100),
+        secondary: var(--palette-blue-100),
+        background: var(--palette-gray-50),
+        button-default: var(--palette-yellow-100),
+        button-hover: var(--palette-yellow-200),
+        button-disabled: var(--palette-gray-100),
+        card-background: var(--palette-white-100),
+        input-file-border-default: var(--palette-gray-150),
+        input-file-border-secondary: var(--palette-black-87),
+        input-file-color-placeholder: var(--palette-gray-200),
+        input-file-color-text: var(--palette-black-87),
+        input-file-color-error: var(--palette-red-100),
+);
+
+:root {
+  @each $colorname, $palette in $colours {
+    @each $key, $value in $palette {
+      $keyname: "--palette-" + $colorname + "-" + $key;
+      #{$keyname}: #{$value};
+    }
+  }
+
+  @each $key, $value in $palettes {
+    $keyname: "--palette-" + $key;
+    #{$keyname}: #{$value};
+  }
+}

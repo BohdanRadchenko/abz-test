@@ -1,0 +1,16 @@
+.header {
+  background: var(--palette-white-100);
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+  }
+
+  &__actions {
+    & button:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.typography {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: var(--palette-black-87);
+
+  &.collapses {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+
+  &.type-body {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &.type-heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  &.align-center {
+    text-align: center;
+  }
+
+  &.align-left {
+    text-align: left;
+  }
+
+  &.color-black {
+    color: var(--palette-black-87);
+  }
+
+  &.color-white {
+    color: var(--palette-white-100);
+  }
+
+
+}

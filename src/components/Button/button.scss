@@ -1,0 +1,20 @@
+.button {
+  outline: none;
+  border: none;
+  background-color: var(--palette-button-default);
+  color: var(--palette-color-text);
+  cursor: pointer;
+  min-width: 100px;
+  border-radius: 80px;
+  padding: 4px 0;
+
+  &:disabled,
+  &[disabled] {
+    background-color: var(--palette-button-disabled);
+    color: var(--palette-white-100);
+
+    & p {
+      color: var(--palette-white-100);
+    }
+  }
+}
