@@ -17,8 +17,9 @@ export const signupSchema = Yup.object().shape({
   photo: Yup.mixed()
     .required("Photo required!")
     .test("fileSize", "The file is too large", (value) => {
-      if ( !value ) return true;
-      const file = value as File;
-      return file.size < 5242880;
+      if ( value ) {
+        const file = value as File;
+        return file.size < 5242880;
+      }
     }),
 });

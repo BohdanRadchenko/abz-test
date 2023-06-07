@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e050d4-b21a-4e4a-af1b-e11657e702cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/palette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/palette.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/register/RegisterForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/register/RegisterForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/register/signupSchema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/register/signupSchema.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -45,7 +45,6 @@ export const RegisterForm = () => {
       initialValues={initialValues}
       validationSchema={signupSchema}
       onSubmit={handleSubmit}
-      validateOnMount
     >
       {({ errors, touched }) => (
         <Form className="register__form">
