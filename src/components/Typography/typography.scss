@@ -4,7 +4,7 @@
   margin: 0;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  color: var(--palette-black-87);
+  color: var(--palette-dark-87);
 
   &.collapses {
     max-width: 100%;
@@ -32,11 +32,11 @@
   }
 
   &.color-black {
-    color: var(--palette-black-87);
+    color: var(--palette-dark-87);
   }
 
   &.color-white {
-    color: var(--palette-white-100);
+    color: var(--palette-light-100);
   }
 
 

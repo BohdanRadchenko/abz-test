@@ -11,10 +11,10 @@
   &:disabled,
   &[disabled] {
     background-color: var(--palette-button-disabled);
-    color: var(--palette-white-100);
+    color: var(--palette-light-100);
 
     & p {
-      color: var(--palette-white-100);
+      color: var(--palette-light-100);
     }
   }
 }

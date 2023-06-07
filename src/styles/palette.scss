@@ -1,12 +1,12 @@
 $colours: (
-        white: (
+        light: (
                 100: #fff,
         ),
-        black: (
+        dark: (
                 87: #000000DE,
                 100: #000,
         ),
-        yellow: (
+        yell: (
                 100: #F4E041,
                 200: #FFE302,
         ),
@@ -25,18 +25,18 @@ $colours: (
 );
 
 $palettes: (
-        color-text: var(--palette-black-87),
-        primary: var(--palette-yellow-100),
+        color-text: var(--palette-dark-87),
+        primary: var(--palette-yell-100),
         secondary: var(--palette-blue-100),
         background: var(--palette-gray-50),
-        button-default: var(--palette-yellow-100),
-        button-hover: var(--palette-yellow-200),
+        button-default: var(--palette-yell-100),
+        button-hover: var(--palette-yell-200),
         button-disabled: var(--palette-gray-100),
-        card-background: var(--palette-white-100),
+        card-background: var(--palette-light-100),
         input-file-border-default: var(--palette-gray-150),
-        input-file-border-secondary: var(--palette-black-87),
+        input-file-border-secondary: var(--palette-dark-87),
         input-file-color-placeholder: var(--palette-gray-200),
-        input-file-color-text: var(--palette-black-87),
+        input-file-color-text: var(--palette-dark-87),
         input-file-color-error: var(--palette-red-100),
 );
 
